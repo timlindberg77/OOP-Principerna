@@ -18,7 +18,7 @@ namespace OOP_Principerna.Klasser
 
         private int hunger = 5;  //private attributer för encapsulation med ett startvärde på 5
         //metoder
-        public void makeSound()
+        public virtual void makeSound()
         {
             Console.WriteLine("Animal sound");
         }
